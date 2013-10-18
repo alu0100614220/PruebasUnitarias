@@ -73,3 +73,25 @@ común divisor. Haciendo uso del depurador de ruby detecte el error en el códig
 
 3. Implemente un conjunto de [Pruebas Unitarias](http://en.wikibooks.org/wiki/Ruby_Programming/Unit_testing) que permitan comprobar el correcto funcionamiento 
    de la clase que implementa a los números racionales.
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+2) En esta tarea escriba la respuesta a las siguientes preguntas:
+   2.1.) ¿Cuál es el error en el código del método para calcular el máximo común divisor?
+        Que el bucle está con un v = 0, siendo este el denominador, que nunca puede ser 0, lo cual nunca llega a entrar
+  
+   2.2.) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
+         `ruby -rdebug gcd.rb`
+         1 para listar el programa, y n para ir sentencia por sentencia hasta que no ejecuto el bucle.
+   2.3.) Escriba la dirección 'HTTP' del repositorio que contiene el desarrollo de su práctica.
+        
